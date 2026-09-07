@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: agentscope-java-learn
+
+agentscope:
+  openai:
+    api-key: ${DEEPSEEK_API_KEY}
+    base-url: https://api.deepseek.com
+    model-name: deepseek-v4-flash
+
